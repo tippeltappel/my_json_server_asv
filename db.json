@@ -1,0 +1,116 @@
+{
+	"contacts": [
+		{
+			"id":1,
+			"fname":"Hermann",
+			"lname":"Löns",
+			"unique_name":"Manny",
+			"status":"active",
+			"mobile":"+49170123456",
+			"club_license":1,
+			"dsv_licenses":[
+				{	"SBF-See":true},
+				{	"SKS":true},
+				{	"SSS":false}
+			],
+			"radio_licenses":[
+				{	"SRC":true},
+				{	"LRC":false}
+			],
+			"emergency_contacts": [
+				{	"relationship":"Ehegatte",
+					"phone":"+49171123456"
+				},
+				{	"relationship":"Kind",
+					"phone":"+49173123456"
+				}
+			]
+		},
+		{
+			"id":2,
+			"fname":"Cornelia",
+			"lname":"Funke",
+			"unique_name":"Conny",
+			"status":"active",
+			"mobile":"+49170654321",
+			"club_license":2,
+			"dsv_licenses":[
+				{	"SBF-See":true},
+				{	"SKS":false},
+				{	"SSS":false}
+			],
+			"radio_licenses":[
+				{	"SRC":false},
+				{	"LRC":false}
+			],
+			"emergency_contacts": [
+				{	"relationship":"Schwester",
+					"phone":"+49171654321"
+				},
+				{	"relationship":"Kind",
+					"phone":"+49173123456"
+				}
+			]
+		}			
+	],
+	"boats": [
+		{
+			"id": 1,
+			"name": "Wiking VIII",
+			"model":"Luffe 43",
+			"length":"13.40 m",
+			"depth":"1.92 m",
+			"required_club_license":4
+			
+		},
+		{
+			"id": 2,
+			"name": "Frithjof II",
+			"model":"Unna 24",
+			"length":"7.20 m",
+			"depth":"1.60 m",
+			"required_club_license":2
+		},
+		{
+			"id": 3,
+			"name": "Sprotte",
+			"model":"Hunter 707",
+			"length":"7.07 m",
+			"depth":"1.63 m",
+			"required_club_license":1
+		}
+	],
+	"reservations": [
+		{
+			"id":1,
+			"boat":"Wiking VIII",
+			"begin_date":"2020-08-15",
+			"begin_time":"09:00",
+			"end_date":"2020-08-28",
+			"end_time":"20:00",
+			"comment":"",
+			"crew":[
+				{
+					"name":"Conny",
+					"role":"Skipper",
+					"comment":""
+				},
+				{
+					"name":"Mike",
+					"role":"Co-Skipper",
+					"comment":""
+				},
+				{
+					"name":"Egon",
+					"role":"Competent Crew Member",
+					"comment":""
+				},
+				{
+					"name":"Isolde",
+					"role":"Newbie",
+					"comment":""
+				}
+			]
+		}
+	]
+}
